@@ -10,7 +10,7 @@ def index(request):
 def detail(request, documento_id):
     try:
         documento = Documento.objects.get(pk=documento_id)
-        documento.codigo = documento.codigo.replace('/nutrace', '/static/polls')
+        documento.codigo = documento.codigo.replace('/nutrace', '/static')
     except Documento.DoesNotExist:
         raise Http404("Laudo não existe!")
     return render(request, 'laudo/detail.html', {'documento': documento})
