@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/d5fb8588-3a84-4801-8a74-aa33f5ffd70d/AppServices/subscriptions/d5fb8588-3a84-4801-8a74-aa33f5ffd70d/resourceGroups/webclass/providers/Microsoft.Web/sites/nucoffee-webclass",
+    "appService.deploySubpath": "."
+}
